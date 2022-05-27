@@ -30,7 +30,7 @@ client.c_post = c_post
 client.c_on = c_on
 client.c_msg = c_msg
 
-client.c_conex(BROKER, PORT)
+client.conex(BROKER, PORT)
 client.loop_start()
 client.on('chat/#')
 
