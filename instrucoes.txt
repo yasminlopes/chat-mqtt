@@ -1,0 +1,8 @@
+Install MQTT
+pip install paho-mqtt
+
+Run docker
+docker-compose up
+
+Run chat
+chat.py
